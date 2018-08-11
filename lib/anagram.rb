@@ -11,6 +11,6 @@ class Anagram
       letters = word.split
       matches << word if @base_letters.sort == letters.sort
     end
-    words
+    matches
   end
 end
